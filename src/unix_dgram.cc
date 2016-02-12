@@ -12,8 +12,12 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-#include <winsock2.h>
-#include <sys/un.h>
+#ifdef WIN32
+   #include <winsock.h>
+#else
+   #include <sys/socket.h>
+   #include <sys/un.h>
+#endif
 
 #include <map>
 
