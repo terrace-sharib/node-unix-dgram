@@ -12,7 +12,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-#include <sys/socket.h>
+#include <winsock2.h>
 #include <sys/un.h>
 
 #include <map>
