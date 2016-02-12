@@ -6,7 +6,7 @@
 
 #include <errno.h>
 #include <stddef.h>
-#include <unistd.h>
+#include <io.h>
 #include <fcntl.h>
 
 #include <sys/types.h>
